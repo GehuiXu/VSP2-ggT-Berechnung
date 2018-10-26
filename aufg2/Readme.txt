@@ -1,10 +1,7 @@
-# VSP2-ggT-Berechnung
-
-
 --------------------
 Compilieren der Dateien:
 --------------------
-Zu dem Paket gehÃ¶ren die Dateien
+Zu dem Paket gehören die Dateien
 ggt_process.erl; ggt_starter.erl; koordinator.erl; nameservice.erl; start_starter.erl;
 util.erl; vsutil.erl; ko_send.erl; ns_send.erl;
 
@@ -36,7 +33,7 @@ Starten des Koordinators:
 2>koordinator:start( ).
 
 % liest die koordinator.cfg ein:
-% {arbeitszeit, 3}:			simulierte Arbeitszeit fÃ¼r die ggT-Berechnung
+% {arbeitszeit, 3}:			simulierte Arbeitszeit für die ggT-Berechnung
 % {termzeit, 3}:			Wenn termzeit lang keine Berechnung dann wird Terminierungsabstimmung initiiert
 % {ggtprozessnummer, 42}:		Anzahl ggT Prozesse je Starter (und default ggT)
 % {nameservicenode, 'ns@KI-VS'}:	node des Namensdienstes
